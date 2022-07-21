@@ -1,0 +1,95 @@
+.caja-padre{
+    width: 40rem;
+    height: 45rem;;
+    border: solid 0.3rem #111213;
+    background-color:#42a8a1;
+    border-radius: 1rem;
+    margin-top: 15rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.caja-padre_título{
+    width: 25rem;
+    height: 10rem;
+    border: solid 0.3rem #111213;
+    background-color: #b5ffff;
+    border-radius: 1rem;
+    margin-top: 5rem;
+    margin-bottom: 8rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.usuario0{
+    font-size: 5rem;
+    color: #fafdfd;
+}
+
+.comandos{
+    width: 35rem;
+    height: 10rem;
+
+    display: flex;
+}
+
+.botonuno{
+    width: 10rem;
+    height: 5rem;
+    border: solid 0.3rem #111213;
+    background-color: #239089;
+    border-radius: 1rem;
+    margin: auto;
+    margin-top: 0.2rem;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 2rem;
+    color: #fafdfd;
+}
+
+.botondos{
+    width: 10rem;
+    height: 5rem;
+    border: solid 0.3rem #111213;
+    background-color: #239089;
+    border-radius: 1rem;
+    margin: auto;
+    margin-top: 0.2rem;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 2rem;
+    color: #fafdfd;
+}
+
+/*btonoes de usuario otro-*/
+
+#bt_user {
+    width: 27rem;
+    height: 5rem;
+    border: solid 0.3rem #111213;
+    background-color: #b8f0ed;
+    border-radius: 1rem;
+    font-size: 2rem;
+    color: #fafdfd;
+    margin-bottom: 5rem;
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#bt_user:hover {
+    background-color: rgb(30, 148, 195);
+}

@@ -1,0 +1,19 @@
+#root {
+    width: 40rem;
+    height: 45rem;;
+    border: solid 0.3rem #111213;
+    background-color:#b8f0ed;
+    border-radius: 1rem;
+    margin-top: 15rem;
+    margin-left: 10rem;
+    padding: 2px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    font-size: 14px;
+    text-align: center;
+}
+
